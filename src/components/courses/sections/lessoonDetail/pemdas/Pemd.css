@@ -1,0 +1,56 @@
+/* Pemd.css */
+
+.pemd-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.pemd-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  margin-bottom: 20px;
+}
+
+.pemd-card:hover {
+  transform: scale(1.03);
+}
+
+.pemd-heading {
+  color: #1a73e8;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pemd-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.pemd-list {
+  font-size: 16px;
+  margin-bottom: 15px;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.pemd-example {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.pemd-example-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.pemd-ordered-list {
+  font-size: 16px;
+  list-style-type: decimal;
+  margin-left: 20px;
+  margin-top: 5px;
+}
